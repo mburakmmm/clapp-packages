@@ -1,108 +1,40 @@
-# clapp-packages - Resmi Paket Deposu
+# clapp-packages - Resmi clapp Paket Deposu
 
-Bu repo, [clapp](https://github.com/mburakmmm/clapp) paket yöneticisi için resmi paket deposudur.
+Bu repo, [clapp](https://github.com/mburakmmm/clapp) paket yöneticisinin resmi ve merkezi paket deposudur.
 
-## Paket Listesi
+## Yapı ve Kullanım
 
-### Demo Paketler
-- **hello-world** (v1.0.0) - Basit merhaba dünya uygulaması
-- **text-editor** (v2.1.0) - Basit metin editörü
-- **calculator** (v1.5.0) - Gelişmiş hesap makinesi
-- **file-manager** (v3.0.0) - Basit dosya yöneticisi
-
-### Productivity
-- **todo-app** - Görev yöneticisi
-- **note-taker** - Not alma uygulaması
-- **password-manager** - Şifre yöneticisi
-
-### Utilities
-- **system-monitor** - Sistem izleme
-- **disk-cleaner** - Disk temizleyici
-- **network-scanner** - Ağ tarayıcı
-
-### Games
-- **snake-game** - Yılan oyunu
-- **tic-tac-toe** - XOX oyunu
-- **memory-game** - Hafıza oyunu
+- Her paket kendi klasöründe bulunur (ör: `hello-world/`)
+- Her pakette en az bir `manifest.json` ve giriş dosyası (`main.py` veya benzeri) bulunur
+- Tüm paketler ve sürümler `index.json` dosyasında listelenir
+- Paketler doğrudan elle eklenmez, sadece `clapp publish` komutu ile eklenir/güncellenir
 
 ## Paket Yükleme
 
+Kullanıcılar paketleri doğrudan CLI ile yükler:
 ```bash
-# clapp ile paket yükle
-clapp install https://github.com/mburakmmm/clapp-packages/releases/download/v1.0.0/hello-world.clapp.zip
-
-# veya GUI üzerinden App Store'dan yükle
-clapp gui
+clapp install hello-world
 ```
+clapp, bu repodaki `index.json` üzerinden paketleri bulur ve indirir.
 
-## Paket Geliştirme
+## Paket Yayınlama
 
-### Yeni Paket Oluşturma
+Kendi uygulamanızı eklemek için:
+1. Uygulamanızın klasöründe geçerli bir `manifest.json` ve giriş dosyası olmalı
+2. `clapp publish ./my-app --push` komutunu kullanın
+   - Bu komut, paketi zipler, bu repoya ekler ve `index.json`'u günceller
+   - Tüm işlemler otomatik yapılır, manuel ekleme yapılmaz
 
-```bash
-# Yeni paket scaffold et
-clapp scaffold my-package --language python
+## index.json
 
-# Paket geliştir
-cd my-package
-# ... kod yaz ...
+- Tüm paketlerin adı, sürümü, açıklaması ve indirme bağlantısı burada tutulur
+- clapp CLI, paket arama ve yükleme işlemlerinde bu dosyayı kullanır
 
-# Paket doğrula
-clapp validate .
+## Katkı ve Güvenlik
 
-# Paket yayınla
-clapp publish .
-```
-
-### Paket Yapısı
-
-```
-my-package/
-├── manifest.json    # Paket bilgileri
-├── main.py         # Ana dosya
-├── README.md       # Paket açıklaması
-└── assets/         # Varlıklar (opsiyonel)
-    └── icon.png
-```
-
-### Manifest Örneği
-
-```json
-{
-    "name": "my-package",
-    "version": "1.0.0",
-    "language": "python",
-    "entry": "main.py",
-    "description": "Paket açıklaması",
-    "author": "Geliştirici Adı",
-    "dependencies": [],
-    "category": "utility"
-}
-```
-
-## Paket Gönderme
-
-1. Paketinizi geliştirin ve test edin
-2. `.clapp.zip` dosyası oluşturun
-3. GitHub Release olarak yayınlayın
-4. `packages.json` dosyasını güncelleyin
-5. Pull Request gönderin
-
-## Paket Standartları
-
-- ✅ Geçerli `manifest.json` dosyası
-- ✅ Çalışan entry point
-- ✅ README.md dosyası
-- ✅ Uygun kategori seçimi
-- ✅ Semantic versioning (x.y.z)
-- ✅ Güvenli kod (zararlı kod yok)
-
-## Katkıda Bulunma
-
-1. Fork edin
-2. Yeni paket ekleyin veya mevcut paketi güncelleyin
-3. Pull Request gönderin
-4. Review sürecini bekleyin
+- Paketler sadece `clapp publish` ile eklenir/güncellenir
+- Her paket için geçerli manifest ve çalışır giriş dosyası zorunludur
+- Zararlı veya uygunsuz içerik tespit edilirse paket kaldırılır
 
 ## Lisans
 
@@ -110,6 +42,5 @@ Bu repodaki paketler kendi lisanslarına sahiptir. Genel repo MIT lisansı altı
 
 ## Destek
 
-- 🐛 Bug Report: [Issues](https://github.com/mburakmmm/clapp-packages/issues)
-- 💡 Paket Önerisi: [Issues](https://github.com/mburakmmm/clapp-packages/issues)
-- 📖 Ana Proje: [clapp](https://github.com/mburakmmm/clapp) 
+- 🐛 Hata bildirimi ve öneriler: [Issues](https://github.com/mburakmmm/clapp-packages/issues)
+- 📖 Ana proje: [clapp](https://github.com/mburakmmm/clapp) 
