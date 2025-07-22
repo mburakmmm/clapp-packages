@@ -9,5 +9,16 @@
     "folder": "cloud-finder",
     "repo_url": "https://github.com/mburakmmm/clapp-packages",
     "subdir": "cloud-finder"
+  },
+  {
+    "name": "test-app-2",
+    "version": "1.0.0",
+    "language": "python",
+    "description": "Basit bir Python Hello World uygulaması",
+    "entry": "main.py",
+    "dependencies": [],
+    "folder": "test-app-2",
+    "repo_url": "https://github.com/mburakmmm/clapp-packages",
+    "subdir": "test-app-2"
   }
 ]
