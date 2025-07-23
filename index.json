@@ -86,9 +86,9 @@
   {
     "name": "luaozgur-moba",
     "version": "1.0.1",
-    "language": "lua",
+    "language": "love2d",
     "description": "League of Legends benzeri MOBA oyunu",
-    "entry": "run.sh",
+    "entry": "main.lua",
     "dependencies": [
       "love2d"
     ],
