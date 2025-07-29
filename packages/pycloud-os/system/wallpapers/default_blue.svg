@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976d2;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2196f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#64b5f6;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="cloudPattern" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.05" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Ana arka plan -->
+  <rect width="1920" height="1080" fill="url(#blueGradient)"/>
+  
+  <!-- Bulut desenleri -->
+  <circle cx="300" cy="200" r="150" fill="url(#cloudPattern)"/>
+  <circle cx="800" cy="300" r="200" fill="url(#cloudPattern)"/>
+  <circle cx="1400" cy="150" r="180" fill="url(#cloudPattern)"/>
+  <circle cx="600" cy="600" r="120" fill="url(#cloudPattern)"/>
+  <circle cx="1200" cy="700" r="160" fill="url(#cloudPattern)"/>
+  <circle cx="1600" cy="500" r="140" fill="url(#cloudPattern)"/>
+  
+  <!-- PyCloud OS logosu (merkez) -->
+  <g transform="translate(860, 440)">
+    <circle cx="100" cy="100" r="80" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+    <text x="100" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="rgba(255,255,255,0.8)">☁️</text>
+    <text x="100" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="rgba(255,255,255,0.6)">PyCloud OS</text>
+  </g>
+</svg> 

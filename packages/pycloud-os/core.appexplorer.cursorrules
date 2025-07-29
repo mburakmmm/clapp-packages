@@ -1,0 +1,28 @@
+{
+  "module": "core.appexplorer",
+  "description": "PyCloud OS uygulama keşif ve kayıt yöneticisi. Sistem klasörlerindeki uygulamaları tanır ve sisteme kayıt eder.",
+  "responsibilities": [
+    "apps/ klasörünü tarayarak yeni uygulamaları keşfeder",
+    "app.json dosyasını okuyarak uygulama bilgilerini alır",
+    "core.appkit modülünü çağırarak adaptasyon başlatır",
+    "Geçerli uygulamaları sistemin uygulama listesine ekler"
+  ],
+  "features": [
+    "Otomatik uygulama keşfi (apps klasörüne eklenince)",
+    "app.json içeriğini doğrulama ve giriş dosyasını kontrol etme",
+    "Uygulama listesi için meta veri üretme (isim, ikon, açıklama)",
+    "Uygulama durumunu (aktif/pasif/eksik bağımlılık) yönetme"
+  ],
+  "integration": {
+    "appkit": "core.appkit",
+    "launcher": "core.launcher",
+    "fs": "core.fs"
+  },
+  "supported_manifest_fields": [
+    "name", "entry", "requires", "permissions", "icon", "category"
+  ],
+  "optional": {
+    "log_discovered_apps": true,
+    "support_custom_app_folders": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "module": "core.appkit",
+  "description": "Yüklenen uygulamaların çekirdek modüllere otomatik adaptasyonunu sağlayan sistem katmanı.",
+  "responsibilities": [
+    "Her .app içindeki app.json dosyasını okuyarak bağımlılık ve izin analizini yapar",
+    "Gerekli çekirdek modüllerle bağlantı kurar (örn: core.fs, core.audio)",
+    "core.security üzerinden izinleri uygular",
+    "core.bridge ile bağlantı arayüzlerini oluşturur",
+    "Uygulamanın sistemle uyumlu çalışmasını garanti eder"
+  ],
+  "integration": {
+    "security": "core.security",
+    "fs": "core.fs",
+    "bridge": "core.bridge",
+    "explorer": "core.appexplorer"
+  },
+  "app_manifest_schema": {
+    "entry": "main.py",
+    "requires": ["core.module1", "core.module2"],
+    "permissions": {
+      "fs.read": true,
+      "fs.write": false,
+      "network": true
+    }
+  },
+  "features": [
+    "Uygulama başlatılmadan önce manifest doğrulama",
+    "Modül eksikse hata raporu üretme",
+    "Sandbox içinde çalışma desteği (security entegre)",
+    "Hot reload ile çalışan sistemlerde anlık adaptasyon"
+  ],
+  "optional": {
+    "allow_custom_hooks": true,
+    "log_adaptations": true
+  }
+}

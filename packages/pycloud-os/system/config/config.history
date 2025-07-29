@@ -1,0 +1,402 @@
+[
+  {
+    "timestamp": "2025-06-04T02:14:51.115174",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-04T02:17:35.978850",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-04T02:31:41.174694",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-04T02:49:04.521528",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-04T03:00:39.506197",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-04T03:05:48.341613",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-04T14:35:59.407305",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-04T14:45:13.699135",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-06-04T14:54:26.211239",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  },
+  {
+    "timestamp": "2025-07-29T20:39:41.030369",
+    "config": {
+      "system": {
+        "version": "0.9.0-dev",
+        "language": "tr_TR",
+        "timezone": "Europe/Istanbul",
+        "theme": "auto",
+        "debug_mode": false
+      },
+      "ui": {
+        "theme": "light",
+        "font_family": "JetBrains Mono",
+        "font_size": 12,
+        "animations": true,
+        "transparency": true,
+        "theme_mode": "auto"
+      },
+      "dock": {
+        "position": "bottom",
+        "size": "medium",
+        "auto_hide": false,
+        "magnification": true
+      },
+      "desktop": {
+        "wallpaper": "system/wallpapers/default.jpg",
+        "icon_size": "medium",
+        "grid_snap": true
+      },
+      "security": {
+        "require_password": true,
+        "session_timeout": 3600,
+        "auto_lock": false
+      },
+      "modules": {},
+      "theme": {
+        "dark_mode": false
+      }
+    }
+  }
+]
