@@ -14,6 +14,17 @@
     "subdir": "clapp-store"
   },
   {
+    "name": "cloud-calc",
+    "version": "1.0.0",
+    "language": "python",
+    "description": "Modern ve profesyonel hesap makinesi uygulaması",
+    "entry": "main.py",
+    "dependencies": [],
+    "folder": "cloud-calc",
+    "repo_url": "https://github.com/mburakmmm/clapp-packages",
+    "subdir": "cloud-calc"
+  },
+  {
     "name": "cloud-notepad",
     "version": "1.0.0",
     "language": "python",
