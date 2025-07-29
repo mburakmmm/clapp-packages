@@ -19,7 +19,9 @@
     "language": "python",
     "description": "Modern ve profesyonel hesap makinesi uygulaması",
     "entry": "main.py",
-    "dependencies": [],
+    "dependencies": [
+      "flet>=0.21.0"
+    ],
     "folder": "cloud-calc",
     "repo_url": "https://github.com/mburakmmm/clapp-packages",
     "subdir": "cloud-calc"

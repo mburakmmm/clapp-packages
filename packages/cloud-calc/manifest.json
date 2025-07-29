@@ -4,5 +4,7 @@
     "language": "python",
     "entry": "main.py",
     "description": "Modern ve profesyonel hesap makinesi uygulaması",
-    "dependencies": []
+    "dependencies": [
+        "flet>=0.21.0" 
+    ]
 } 
