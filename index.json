@@ -26,11 +26,14 @@
   },
   {
     "name": "cloud-finder",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "language": "python",
     "description": "MacOS Finder'a benzeyen modern dosya gezgini",
     "entry": "main.py",
-    "dependencies": [],
+    "dependencies": [
+      "flet>=0.28.0",
+      "pathlib"
+    ],
     "folder": "cloud-finder",
     "repo_url": "https://github.com/mburakmmm/clapp-packages",
     "subdir": "cloud-finder"
