@@ -32,6 +32,20 @@
     "subdir": "cloud-notepad"
   },
   {
+    "name": "cloud-system",
+    "version": "1.0.0",
+    "language": "python",
+    "description": "Modern sistem yöneticisi ve görev yöneticisi uygulaması",
+    "entry": "main.py",
+    "dependencies": [
+      "flet",
+      "psutil"
+    ],
+    "folder": "cloud-system",
+    "repo_url": "https://github.com/mburakmmm/clapp-packages",
+    "subdir": "cloud-system"
+  },
+  {
     "name": "pycloud-os",
     "version": "1.0.0",
     "language": "python",
